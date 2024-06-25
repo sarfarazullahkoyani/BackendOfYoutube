@@ -14,7 +14,7 @@ app.use(
 
 app.use(
   express.json({
-    limit: "16kb ",
+    limit: "1000kb ",
   })
 );
 // this the data we have took when user filled form
